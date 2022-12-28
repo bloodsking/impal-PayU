@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #d4d4d4;
+    background-size: auto;
+    display: block;
+}
+
+.logo {
+    float: left;
+    margin-left: 46px;
+    padding: 0px 38px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #323653;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 140px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    color: #323653;
+    font-family: 'Poppins', sans-serif;
+    padding: 35px 15px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.nav ul li:hover {
+    border-bottom: 3px solid #323653;
+    transition: all .3s ease-in-out;
+}
+
+.header {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}
+
+.header h1 {
+    color: #323653;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    top: 20%;
+}
+
+.header span {
+    color: #ffffff;
+}
+
+.realistic-marker-highlight {
+    position: relative;
+}
+
+.realistic-marker-highlight:before {
+    content: "";
+    background-color: #323653;
+    width: 100%;
+    height: 1em;
+    position: absolute;
+    z-index: -1;
+    filter: url(#marker-shape);
+    left: -0.25em;
+    top: 0.1em;
+    padding: 0 0.4em;
+}
+
+.content-header {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 50%;
+    left: 73%;
+}
+
+.content-header p {
+    color: #323653;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.col-img {
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    text-align: -webkit-right;
+}
+
+.col-img img {
+    width: 70%;
+}
+
+.pay {
+    position: absolute;
+    width: 20%;
+    top: 30%;
+    left: 3.5%;
+}
+
+.pay img {
+    width: 20%;
+}
